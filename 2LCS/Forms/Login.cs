@@ -16,6 +16,7 @@ namespace LCS.Forms
             Cancelled = true;
             webBrowser1.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36";
             webBrowser1.Navigate("https://lcs.dynamics.com");
+            //webBrowser1.Navigate("https://login.microsoftonline.com/");
         }
 
         private void WebBrowser1_Navigated(object sender, WebBrowserNavigatedEventArgs e)
